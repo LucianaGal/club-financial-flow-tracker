@@ -27,22 +27,26 @@ Data is collected from multiple sources and transformed using Power Query into a
 
 ## Data Sources
 
-The project integrates multiple data sources, including:
+The project integrates multiple data sources, structured as follows:
 
-club-financial-flow-tracker/
-├── data/
-│ ├── base/
-│ │ └── clubs_earning_details.xlsx
-│ └── sources/
-│ ├── days_detailed_stages.xlsx
-│ ├── games_detailed_orange_titans.xlsx
-│ ├── hours_detailed_blue_warriors.xlsx
-│ └── hours_detailed_emerald_demons.xlsx
-├── screenshots/
-│ ├── dashboard_overview.png
-│ ├── kpi_summary.png
-│ └── filters_slicers.png
-└── README.md
+- **data/base**  
+  - clubs_earning_details.xlsx (processed and unified dataset)
+
+- **data/sources**  
+  - days_detailed_stages.xlsx  
+  - games_detailed_orange_titans.xlsx  
+  - hours_detailed_blue_warriors.xlsx  
+  - hours_detailed_emerald_demons.xlsx  
+
+- **screenshots**  
+  - dashboard_overview.png  
+  - kpi_summary.png  
+  - filters_slicers.png  
+
+- **README.md**  
+  - project documentation  
+
+All sources are combined using Power Query into a unified dataset.
 
 
 All sources are combined using Power Query into a unified dataset.
