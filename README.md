@@ -2,11 +2,12 @@
 
 ## Overview
 
-This project is a financial tracking and analysis system designed to monitor income streams across multiple hockey clubs.
-
-It consolidates different revenue sources such as hourly work, daily rates, retainers and project-based income into a unified data model, enabling clear visibility on earnings, payment status and cash flow.
-
+A financial tracking and analysis system built in Excel using Power Query to consolidate multiple income streams, monitor payment status and analyse cash flow across hockey clubs.
 ---
+
+## Dashboard Preview
+
+![Dashboard](screenshots/dashboard_overview.png)
 
 ## Objective
 
@@ -92,6 +93,8 @@ The dashboard provides an interactive overview of financial performance.
 * Club
 * Month
 
+![Filters](screenshots/filters_slicers.png)
+
 ---
 
 ## Key Insights
@@ -100,6 +103,8 @@ The dashboard provides an interactive overview of financial performance.
 * A share of expected income remains unpaid, impacting short term cash flow
 * Income shows clear seasonality, with peaks during specific periods of the year
 * Revenue streams vary across clubs, combining hourly, daily, retainer and project based models, which affects predictability
+
+![KPIs](screenshots/kpi_summary.png)
 
 ---
 
